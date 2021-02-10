@@ -25,6 +25,8 @@ public class Principal { // Classe que contém o método principal.
 		System.out.printf("Olá %s!\n", none);
 		in.close();
 		
+		//NOTA: Implementar leitura da idade e exibi-la.
+		
 
 	}
 }
