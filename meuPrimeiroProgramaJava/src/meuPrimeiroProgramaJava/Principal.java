@@ -1,8 +1,8 @@
 /**
  * Este programa mostra ao aluno:
- * 1) Que um programa Java È construido dentro de um programa Java.
+ * 1) Que um programa Java √© construido dentro de um programa Java.
  * 2) Todo programa Java deve ter uma classe com um metodo main.
- * 3) Como exibir informaÁıes no terminal (console) do Java.
+ * 3) Como exibir informa√ß√µes no terminal (console) do Java.
  * 4) Como ler uma String do terminal (console) do Java.
  */
 
@@ -10,19 +10,19 @@ package meuPrimeiroProgramaJava;
 import java.util.Scanner;
 
 /**
- * @author lucas
+ * @author lucas costa
  *
  */
-public class Principal { // Classe que contÈm o mÈtodo principal.
+public class Principal { // Classe que cont√©m o m√©todo principal.
 	public static void main(String[] args) {
-		System.out.print("Ol· amigo!\nQual È o seu nome?"); // uso do printIn
+		System.out.print("Ol√° amigo!\nQual √© o seu nome?"); // uso do printIn
 		
 		// Ler uma string do console usando a biblioteca do Scanner.
 		Scanner in = new Scanner(System.in);
 		String none = in.next();
 		
-		// Exibir uma string usando printf.
-		System.out.printf("Ol· %s!\n", none);
+		// Salda√ß√£o espec√≠fica para o nome lido.
+		System.out.printf("Ol√° %s!\n", none);
 		in.close();
 		
 
