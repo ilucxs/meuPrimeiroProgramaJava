@@ -15,7 +15,7 @@ import java.util.Scanner;
  */
 public class Principal { // Classe que contém o método principal.
 	public static void main(String[] args) {
-		System.out.print("Olá amigo!\nQual é o seu nome?"); // uso do printIn
+		System.out.print("Olá amigo(a)!\nQual é o seu nome?"); // uso do printIn
 		
 		// Ler uma string do console usando a biblioteca do Scanner.
 		Scanner in = new Scanner(System.in);
